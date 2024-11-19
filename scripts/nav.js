@@ -8,6 +8,7 @@ export function buildNav() {
                 <li><a href="/personal-pages/brenleigh.html">Brenleigh's Page</a></li>
                 <li><a href="/personal-pages/dallin.html">Dallin's Page</a></li>
                 <li><a href="/personal-pages/peter.html">Peter's Page</a></li>
+                <li><a href="/personal-pages/quiz.html">Quiz</a></li>
             </ul>
         </nav>
     </header>
