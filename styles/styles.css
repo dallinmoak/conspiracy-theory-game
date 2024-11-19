@@ -1,7 +1,16 @@
+@import url("https://use.typekit.net/swj7zqx.css");
+
+body {
+  margin: 0 auto;
+  font-family: "neue-haas-grotesk-display", sans-serif;
+}
 /* simple nav layout (temporary) */
 .navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #333;
-  padding: 10px 0;
+  height: 150px;
 }
 
 nav ul {
@@ -19,7 +28,7 @@ nav ul li {
 nav ul li a {
   color: white;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 25px;
   padding: 10px 15px;
 }
 
@@ -27,10 +36,64 @@ nav ul li a:hover {
   background-color: #575757;
 }
 
+/* home page main */
+.title {
+  text-align: center;
+  color: #3b72b2;
+  margin: 5% 0;
+  font-size: 45px;
+}
+
+.description {
+  margin: 5%;
+  text-align: center;
+  background-color: #3b72b2;
+  color: white;
+  font-weight: 400;
+  padding: 5%;
+  line-height: 50px;
+  border-radius: 10px;
+}
+
+.facts {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  margin-bottom: 5%;
+}
+
+.facts div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 250px;
+  margin: 0 2.5%;
+  background-color: #c7733c;
+  border-radius: 10px;
+}
+
+.facts h3 {
+  font-weight: 400;
+  align-self: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.facts li {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
 /* simple footer layout (temporary) */
 footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #333;
-  padding: 10px 0;
-  text-align: center;
   color: white;
+  font-size: 20px;
+  height: 150px;
 }
