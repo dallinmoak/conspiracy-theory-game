@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+h1 {
+    font-size: 2.5rem;
+}
+article {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    font-size: 1.8rem;
+    color: #990000;
+}
+p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+.highlight {
+    color: #990000;
+    font-weight: bold;
+}
+
+.revealed {
+    color: green;
+    font-weight: bold;
+}
+.hidden-truth-button {
+    padding: 10px 20px;
+    background-color: #990000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.hidden-truth-button:hover {
+    background-color: #cc0000;
+}
