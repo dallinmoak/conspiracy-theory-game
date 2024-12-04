@@ -12,6 +12,34 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+h1,
+h2,
+h3 {
+  color: var(--text-on-light);
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.75rem;
+}
+
+h2 {
+  font-size: 2.25rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+p {
+  color: var(--text-on-light);
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
 /* Colors */
 :root {
   --text-on-light: #001a23;
@@ -79,12 +107,12 @@ footer {
   text-align: center;
   padding: 1rem;
   background-color: var(--primary-color);
-  color: var(--text-on-dark);
   font-size: 18px;
 }
 
 footer p {
   margin-bottom: 0.5rem;
+  color: var(--text-on-dark);
 }
 
 footer a {
