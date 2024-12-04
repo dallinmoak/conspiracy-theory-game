@@ -1,3 +1,5 @@
+@import url("https://use.typekit.net/swj7zqx.css");
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -14,6 +16,7 @@ header {
 }
 h1 {
     font-size: 2.5rem;
+    margin: 20px;
 }
 article {
     margin: 20px;
@@ -59,3 +62,39 @@ footer {
 .hidden-truth-button:hover {
     background-color: #cc0000;
 }
+
+.disclaimer {
+    margin: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    height: 150px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px 15px;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+  }
+  
+  nav ul li a:hover {
+    background-color: #575757;
+  }
