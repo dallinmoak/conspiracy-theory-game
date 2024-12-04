@@ -73,3 +73,28 @@ body {
   border: 1px var(--accent-one) solid;
   border-radius: 3px;
 }
+
+/* Footer  */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: var(--primary-color);
+  color: var(--text-on-dark);
+  font-size: 18px;
+}
+
+footer p {
+  margin-bottom: 0.5rem;
+}
+
+footer a {
+  display: block;
+  text-decoration: none;
+  color: var(--text-on-dark);
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

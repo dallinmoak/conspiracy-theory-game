@@ -1,6 +1,6 @@
 export function buildNav() {
   const navHTML = `
-    <header class="navbar">
+    <header class="navbar" id="top">
         <nav>
             <div class="logo">
                 <a href="/index.html">
