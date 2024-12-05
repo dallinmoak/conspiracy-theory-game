@@ -7,6 +7,15 @@
   box-sizing: border-box;
 }
 
+/* Colors */
+:root {
+  --text-on-light: #3b3b3b;
+  --text-on-dark: #ffffff;
+  --primary-color: #023047;
+  --accent-one: #f25c54;
+  --accent-two: #ffb703;
+}
+
 /* Typography */
 body {
   font-family: "Roboto", sans-serif;
@@ -38,15 +47,6 @@ p {
   font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 1rem;
-}
-
-/* Colors */
-:root {
-  --text-on-light: #001a23;
-  --text-on-dark: #e8f1f2;
-  --primary-color: #31493c;
-  --accent-one: #7a9e7e;
-  --accent-two: #b3efb2;
 }
 
 /* Navigation */
