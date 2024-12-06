@@ -1,0 +1,107 @@
+/* Colors */
+:root {
+  --text-on-light: #3b3b3b;
+  --text-on-dark: #ffffff;
+  --primary-color: #023047;
+  --accent-one: #f25c54;
+  --accent-two: #ffb703;
+}
+
+p {
+  font-size: 1.12rem;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+li {
+  font-size: 1.12rem;
+  color: var(--text-on-light);
+  margin-bottom: 10px;
+  margin-left: 25px;
+}
+
+h2 {
+  margin-top: 50px;
+}
+
+.intro {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* Container */
+.container {
+  max-width: 2000px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+section {
+  margin: 25px 0;
+}
+
+figure img {
+  max-width: 100%;
+  height: auto;
+}
+
+figure figcaption {
+  color: var(--text-on-light);
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Title */
+header {
+  text-align: center;
+}
+
+header h1 {
+  margin: 25px 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  max-width: 75%;
+  font-size: 1.3rem;
+  margin: 0 auto;
+}
+
+header figure {
+  margin: 25px 0;
+}
+
+/* Key Claims */
+.key-claims {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.key-claims p {
+  gap: 0;
+}
+
+.key-claims div {
+  flex: 1 1 30%;
+  padding: 20px;
+}
+
+/* Counterarguments */
+.counterarguments h3 {
+  margin-left: 25px;
+}
+
+.counterarguments ul {
+  margin-left: 50px;
+}
+
+/* Persistence */
+.persistence figure {
+  text-align: center;
+  margin-top: 30px;
+}
